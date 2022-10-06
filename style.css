@@ -1,0 +1,33 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* banner section */
+.banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: url("./images/Rectangle 2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.banner_left {
+  width: 50%;
+}
+.banner_right {
+  width: 50%;
+}
+.banner_right img {
+  width: 581px;
+  height: 613px;
+}
+.banner_contents h2,
+p {
+  color: white;
+}
