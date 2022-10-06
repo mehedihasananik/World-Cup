@@ -21,13 +21,16 @@ body {
 }
 .banner_left {
   width: 45%;
-  margin-top: 3%;
 }
 .banner_right {
   width: 45%;
 }
+.banner_contents {
+  padding: 11% 0% 0 15%;
+}
 .banner_img {
   text-align: right;
+  padding-top: 5%;
 }
 .banner_img img {
   width: 581px;
@@ -41,11 +44,16 @@ body {
   font-weight: 400;
   font-size: 16px;
 }
-.banner_contents button {
+.live_button {
   background: #dd0000;
   border-radius: 5px;
   padding: 1.5% 3%;
   color: #fff;
   font-size: 20px;
-  margin: 2% 0;
+  margin-top: 5%;
+  transition: 1s ease-in-out;
+  border-radius: 10px;
+}
+.live_button:hover {
+  background: #2f68dc;
 }
