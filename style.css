@@ -229,6 +229,10 @@ hr.line {
   .footer_links li {
     font-size: 13px;
   }
+  .live_button {
+    padding: 3.5% 5%;
+    border: none;
+  }
 }
 @media only screen and (max-width: 767px) {
   .banner {
@@ -244,7 +248,7 @@ hr.line {
     font-size: 14px;
   }
   .banner_contents {
-    padding: 6% 0% 0 10%;
+    padding: 6% 10%;
   }
   .live_button {
     margin: 3% 0;
@@ -284,5 +288,9 @@ hr.line {
   }
   .footer_links li a {
     font-size: 18px;
+  }
+  .live_button {
+    padding: 1.5% 3%;
+    border: none;
   }
 }
