@@ -178,7 +178,7 @@ hr.line {
 }
 
 /* media queries */
-@media only screen and (max-width: 991px) and (min-width: 768px) {
+@media only screen and (max-width: 991px) {
   .banner_contents h2 {
     font-size: 35px;
   }
@@ -195,6 +195,7 @@ hr.line {
     flex-direction: row;
     width: 100%;
     padding: 3% 1%;
+    background: #fff;
   }
   .sports_news {
     display: flex;
@@ -206,10 +207,12 @@ hr.line {
   .matches_area button {
     font-size: 16px;
     padding: 2% 5%;
+    border: 1px solid #dbdbdb;
   }
   .view_button {
     display: flex;
     justify-content: center;
+    margin-top: 7%;
   }
   .viewall_button {
     display: block;
@@ -221,5 +224,41 @@ hr.line {
   }
   .card {
     margin: 0px 0 0px 0px;
+  }
+  .footer_links li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .banner {
+    flex-flow: column;
+  }
+  .banner_left {
+    width: 100%;
+  }
+  .banner_contents h2 {
+    font-size: 22px;
+  }
+  .banner_contents p {
+    font-size: 14px;
+  }
+  .banner_contents {
+    padding: 6% 0% 0 10%;
+  }
+  .live_button {
+    margin: 3% 0;
+    transition: 1s ease-in-out;
+  }
+  .banner_right {
+    width: 77%;
+  }
+  .matches_area {
+    flex-direction: column;
+  }
+  .matches_area button {
+    font-size: 16px;
+    padding: 2% 5%;
+    border: 1px solid #dbdbdb;
+    width: 40%;
   }
 }
