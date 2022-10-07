@@ -8,7 +8,7 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-/* banner section */
+/* banner section  starts*/
 .banner {
   width: 90%;
   display: flex;
@@ -57,3 +57,51 @@ body {
 .live_button:hover {
   background: #2f68dc;
 }
+/* banner section ends*/
+/* sports news starts */
+.sports_news {
+  display: flex;
+  gap: 5%;
+}
+
+.matches_area {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: #000;
+  width: 100%;
+  align-items: center;
+  padding: 1.5% 1%;
+  border-radius: 10px;
+}
+
+.matches_area button {
+  font-weight: 600;
+  font-size: 20px;
+  color: #161616;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 7% 5%;
+  margin: 1% 0;
+  width: 88%;
+}
+.sportnews_left {
+  width: 25%;
+}
+.sportnews_right {
+  width: 75%;
+}
+.card_image img {
+  width: 312px;
+  height: 175px;
+}
+.transfer_button {
+  font-size: 16px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: #fff;
+  padding: 0.5% 2%;
+  margin: 1% 1%;
+}
+
+/* sports news ends */
