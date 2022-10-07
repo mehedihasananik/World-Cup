@@ -63,6 +63,7 @@ body {
 .sports_news {
   display: flex;
   justify-content: space-between;
+  margin: 6% 5%;
 }
 .card_contents {
   padding: 5% 5%;
@@ -260,5 +261,13 @@ hr.line {
     padding: 2% 5%;
     border: 1px solid #dbdbdb;
     width: 40%;
+  }
+  .sports_news {
+    margin: 2% 5%;
+  }
+  .sportnews_right {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 15%;
   }
 }
