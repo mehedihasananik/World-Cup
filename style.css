@@ -219,4 +219,7 @@ hr.line {
     font-size: 20px;
     border-radius: 5px;
   }
+  .card {
+    margin: 0px 0 0px 0px;
+  }
 }
