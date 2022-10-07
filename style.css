@@ -269,5 +269,6 @@ hr.line {
     width: 100%;
     grid-template-columns: repeat(1, 1fr);
     margin-bottom: 15%;
+    grid-row-gap: 1%;
   }
 }
