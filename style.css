@@ -277,4 +277,12 @@ hr.line {
   .view_button {
     margin: 7% 0;
   }
+  .footer_links {
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+  }
+  .footer_links li a {
+    font-size: 18px;
+  }
 }
