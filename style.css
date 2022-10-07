@@ -140,3 +140,32 @@ body {
 }
 
 /* sports news ends */
+/* footer starts */
+footer {
+  background: #000;
+  padding: 6% 0;
+}
+
+/* footer ends */
+.footer_contents h1 {
+  color: #fff;
+  text-align: center;
+}
+.footer_links {
+  display: flex;
+  justify-content: center;
+  padding: 2% 0;
+}
+.footer_links li {
+  text-decoration: none;
+  margin: 0 3%;
+}
+.footer_links li a {
+  color: #fff;
+  text-decoration: none;
+}
+hr.line {
+  border: 1px solid rgb(255 255 255 / 15%);
+  width: 90%;
+  margin: 3% 5%;
+}
