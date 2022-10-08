@@ -177,6 +177,18 @@ hr.line {
 .viewall_button {
   display: none;
 }
+.group_img {
+  display: flex;
+}
+
+.group_title h6 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #161616;
+}
+.team_flag {
+  width: 100%;
+}
 
 /* media queries */
 @media only screen and (max-width: 991px) {
