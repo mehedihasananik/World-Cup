@@ -179,15 +179,24 @@ hr.line {
 }
 .group_img {
   display: flex;
+  justify-content: space-evenly;
+  margin: 10% 0 3% 0;
+  align-items: center;
 }
-
 .group_title h6 {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 25px;
   color: #161616;
 }
-.team_flag {
+.team_flag img {
   width: 100%;
+}
+.sportnews_group {
+  width: 65%;
+}
+.group_contents {
+  padding: 0% 0%;
+  text-align: center;
 }
 
 /* media queries */
